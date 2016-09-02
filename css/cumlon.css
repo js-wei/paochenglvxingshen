@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+
+#headerline {
+	height: 512px;
+	background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)) ,url(../img/headerline.jpg);
+}
+#headerline .center {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+#headerline .center hgroup{
+	padding: 190px 50px;
+	color: #fff;
+}
+
+#headerline .center h2,#headerline .center h3{
+	letter-spacing: 1px;
+}
+
+#headerline .center h2{
+	font-size: 36px;
+}
+
+#headerline .center h3{
+	font-size: 20px;
+}
+
+#contaier {
+	width: 1260px;
+	margin: 30px auto;
+}
+
+#contaier .sidebar,#contaier .list{
+	height: 100%;
+}
+
+#contaier .sidebar{
+	width: 370px;
+	float: right;
+}
+
+#contaier .sidbox{
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#contaier .sidbox h2{
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	padding: 10px 10px 5px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#contaier .spots{
+	padding: 10px;
+}
+
+#contaier .spots li{
+	display: inline-block;
+	width: 83px;
+	height： 35px;
+	line-height: 35px;
+	background-color: #eee;
+	margin: 5px 0;
+}
+
+#contaier .spots a{
+	display: block;
+	color: #666;
+}
+
+
+#contaier .sidbox figure{
+	padding: 4px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#contaier .sidbox figure a{
+	color: #666;
+}
+
+#contaier .pic{
+	width: 160px;
+	height: 120px;
+	overflow: hidden;
+}
+
+#contaier .pic img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+#contaier .figure{
+	padding: 10px 0;
+}
+
+#contaier .box{
+	padding: 10px 0;
+}
+
+#contaier .box a{
+	display: inline-block;
+	width: 173px;
+	height: 40px;
+	line-height: 40px;
+	margin: 3px 0;
+	color: #666;
+	text-align: left;
+	text-indent: 45px;
+}
+
+#contaier .travel1{
+	background: #eee url(../img/trea1.png) no-repeat 15px center;
+}
+#contaier .travel2{
+	background: #eee url(../img/trea2.png) no-repeat 15px center;
+}
+#contaier .travel3{
+	background: #eee url(../img/trea3.png) no-repeat 15px center;
+}
+#contaier .travel4{
+	background: #eee url(../img/trea4.png) no-repeat 15px center;
+}
+
+#contaier .list {
+	width: 875px;
+	float: left;
+}
+
+#contaier .infor{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 10px 0;
+}
+
+#contaier .infor li{
+	display: inline-block;
+}
+
+#contaier .infor_left{
+	float: left;
+}
+
+#contaier .infor a{
+	color: #666;
+}
+
+#contaier .infor_left li{
+	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align:center;
+}
+
+#contaier .infor_left a{
+	display: block;
+}
+
+#contaier .infor_left li:first-child {
+	background-color: #fff;
+	border-top: 2px solid green;
+	position: relative;
+	left: 1px;
+}
+
+#contaier .infor_right{
+	float: right;
+	padding-right: 20px;
+}
+
+#contaier .infor_right li{
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin: 0px 3px;
+}
+
+#contaier .infor_right a{
+	padding: 3px 8px;
+}
+
+#contaier .infor_right li.selected a, #contaier .infor_right li a:hover{
+	background-color: green;
+	color: #fff;
+}
+
+#contaier .infor_product{
+	border: 1px solid #ddd;
+	height: 237px;
+	position: relative;
+	margin: 0 0 10px 0;
+}
+
+#contaier .pro_img{
+	float: left;
+	width: 380px;
+	height: 237px;
+	overflow: hidden;
+}
+
+#contaier .pro_img img{
+	width: 100%;
+}
+
+#contaier .infor_product figcaption{
+	float: right;
+	width: 468px;
+}
+
+#contaier .info_header hgroup{
+	padding: 20px 0 0 0;
+	width: 330px;
+}
+
+#contaier .info_header h2{
+	font-weight: normal;
+	font-size: 24px;
+	color: #333;
+}
+#contaier .info_header h3{
+	font-weight: normal;
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+
+#contaier .info_header p{
+	color: #666;
+	line-height: 2;
+	font-size: 14px;
+}
+
+#contaier .info_header mark{
+	color: green;
+	background-color: #fff;
+	border: 1px solid green;
+	padding: 2px 5px;
+}
+
+#contaier .info_footer{
+	position: absolute;
+	bottom: 8px;
+	color: #666;
+	font-size: 14px;
+}
+
+#contaier .info_footer time{
+	color: green;
+	margin: 0 0 0 5px;
+}
+
+#contaier .infor_product main{
+	position: absolute;
+	top: 120px;
+	right: 30px;
+}
+
+#contaier .price span{
+	color: orange;
+	font-size: 18px;
+}
+
+#contaier .price span strong{
+	font-size: 26px;
+}
+
+#contaier .price s{
+	font-size: 14px;
+	color: #666;
+	margin: 0 0 0 9px;
+}
+
+#contaier .buy{
+	width: 131px;
+	height: 30px;
+	line-height: 30px;
+	background-color: orange;
+	text-align: center;
+	border-radius: 7px;
+	margin: 5px 0 0 0;
+}
+
+#contaier .buy a{
+	display: block;
+	color: #fff;
+}
+
+#contaier .rebate{
+	width: 52px;
+	height: 52px;
+	// line-height: 52px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url(../img/disc.png);
+}
+
+#contaier .rebate span{
+	display: block;
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	color: #666;
+	margin: 9px 0 0 3px;
+	transform: rotate(45deg);
+}
+
+#contaier .flight section{
+	margin: 0 0 30px 0;
+}
+
+#contaier .flight_left, #contaier .flight_cneter, #contaier .flight_right{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0 0 0;
+}
+#contaier .flight_city label{
+	font-size: 18px;
+	color: #666;
+	display: block;
+	margin: 10px 30px 10px 0;
+}
+
+#contaier .flight_city input{
+	width: 200px;
+	height: 35px;
+	font-size: 16px;
+	text-indent: 8px;
+	margin: 0 0 0 10px;
+}
+
+#contaier .flight_right a{
+	display: block;
+	width: 80px;
+	height: 70px;
+	line-height: 70px;
+	background-color: orange;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 22px;
+	margin: 20px 0 0 10px;
+}
+
+#contaier .list h2{
+	font-size: 24px;
+	font-weight: normal;
+	color: #666;
+	border-bottom: 1px dashed #666;
+	padding: 0 0 10px 0;
+}
+
+#contaier .flight ul{
+	margin-top: 15px;
+}
+
+#contaier .flight li{
+	display: inline-block;
+	font-size: 18px;
+}
+
+#contaier .flight li:first-child{
+	width: 90px;
+	color: #666;
+}
+
+#contaier .flight li a{
+	display: block;
+	padding: 3px 8px;
+	color: #666;
+}
+
+#contaier li a.flight_selected, #contaier .flight li a:hover{
+	background-color: green;
+	border-radius: 4px;
+	color: #fff;
+}
+
+#contaier .flight table{
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+#contaier .flight table th, #contaier .flight table td{
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+#contaier .flight tbody a{
+	padding: 5px 15px;
+	background-color: orange;
+	border-radius: 7px;
+	color: #fff;
+}
+
+#contaier .flight tfoot a{
+	display: block;
+	text-align: center;
+	color: #666;
+}
+
+#contaier .scenery{
+	text-align: center;
+}
+
+#contaier .scenery h2{
+	text-align: left;
+}
+
+#contaier .scenery figure{
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #ddd;
+	margin: 15px 10px 15px 0;
+}
+
+#contaier .scenery figcaption{
+	padding: 5px 0 3px 0;
+}
+
+#contaier .scenery figcaption a{
+	color: #666;
+}
+
+#contaier .about p{
+	line-height: 2;
+	margin: 20px 0;
+	font-size: 18px;
+	color: #666;
+}
+
+#contaier .about address{
+	font-style: normal;
+	line-height: 1.6;
+	font-size: 20px;
+	color: #666;
+	margin: 20px 0;
+}

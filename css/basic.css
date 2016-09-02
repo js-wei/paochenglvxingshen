@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+html,input{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,ul,p,figure{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+input,button{
+	outline: none;
+}
+
+.none{
+	display: none;
+}
+
+#header{
+	width: 100%;
+	min-width: 1260px;
+	height: 70px;
+	background-color: #333;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+	position: relative;
+	z-index: 999;
+}
+
+#header .center{
+	width: 1260px;
+	margin: 0 auto;
+}
+
+#header .logo{
+	width: 254px;
+	height: 70px;
+	background: url(../img/logo.fw.png) center no-repeat;
+	color: red;
+	text-indent: -9999px;
+	float: left;
+}
+.link{
+	float: right;
+	width: 650px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.link li{
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+.link a{
+	color: #eee;
+	display: block;
+}
+
+.link a:hover,.link .active{
+	background-color: #000;
+}
+
+#footer{
+	height: 360px;
+	background-color: #333;
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+
+#footer .top{
+	height: 280px;
+	text-align: center;
+}
+
+#footer .block{
+	width: 410px;
+	display: inline-block;
+	color: #ccc;
+	text-align: left;
+	vertical-align: top;
+}
+
+#footer h2{
+	font-size: 20px;
+	padding: 20px 0 0 20px;
+}
+
+#footer hr{
+	width: 90%;
+	border-bottom: 1px solid #666;
+}
+
+#footer ul{
+	padding-left: 20px;
+}
+
+#footer li{
+	color: #777;
+	line-height: 2;
+	font-size: 18px;
+}
+
+#footer a{
+	color: #777;
+}
+
+#footer a:hover{
+	color: #ccc;
+}
+
+#footer .bottom{
+	height: 80px;
+	line-height: 80px;
+	background-color: #000;
+	text-align: center;
+	color: #777;
+	border-top: 1px solid #444;
+}

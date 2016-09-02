@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>项目实战--PC端固定布局</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<link rel="stylesheet" type="text/css" href="css/cumlon.css">
+</head>
+<body>
+	<header id="header">
+		<div class="center">
+			<h1 class="logo">高度旅游</h1>
+			<nav class="link">
+				<h2 class="none">导航栏</h2>
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="information.html">旅游资讯</a></li>
+					<li class="active"><a href="flight.html">机票订购</a></li>
+					<li><a href="scenery.html">风景欣赏</a></li>
+					<li><a href="about.html">公司简介</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="headerline">
+		<div class="center">
+			<hgroup>
+				<h2>机票预订</h2>
+				<h3>说走咱就走，那儿的机票咋都有啊！嘿嘿嘿嘿一黑鸭</h3>
+			</hgroup>
+		</div>
+	</div>
+	
+	<div id="contaier">
+		<div class="list flight">
+			<section>
+				<h2>机票预订</h2>
+				<ul>
+					<li>航班类型</li>
+					<li><a href="#" class="flight_selected">单程</a></li>
+					<li><a href="#">往返</a></li>
+				</ul>
+				<div class="flight_city flight_left">
+					<label>
+						出发城市
+						<input type="text" name="startcity" placeholder="出发城市" />
+					</label>
+					<label>
+						到达城市
+						<input type="text" name="endcity" placeholder="到达城市" />
+					</label>
+				</div>
+				<div class="flight_city flight_cneter">
+					<label>
+						出发时间
+						<input type="text" name="starttime" placeholder="出发时间" />
+					</label>
+					<label>
+						返回城市
+						<input type="text" name="endtime" placeholder="返回城市" />
+					</label>
+				</div>
+				<div class="flight_right">
+					<a href="#">预订</a>
+				</div>
+			</section>
+			<section>
+				<h2>最新机票</h2>
+				<ul>
+					<li>热门城市：</li>
+					<li><a href="#" class="flight_selected">北京</a></li>
+					<li><a href="#">上海</a></li>
+					<li><a href="#">广州</a></li>
+					<li><a href="#">深圳</a></li>
+					<li><a href="#">重庆</a></li>
+					<li><a href="#">成都</a></li>
+					<li><a href="#">杭州</a></li>
+					<li><a href="#">南京</a></li>
+				</ul>
+				<table>
+					<thead>
+						<th>线路</th>
+						<th>日期</th>
+						<th>价格</th>
+						<th>税费</th>
+						<th>餐食</th>
+						<th>航班</th>
+						<th>预订</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>北京-成都</td>
+							<td>10-15</td>
+							<td>￥745</td>
+							<td>￥50</td>
+							<td>有</td>
+							<td>春秋航班</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+						<tr>
+							<td>北京-上海</td>
+							<td>10-15</td>
+							<td>￥479</td>
+							<td>￥45</td>
+							<td>有</td>
+							<td>南方航班</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+						<tr>
+							<td>北京-深圳</td>
+							<td>10-15</td>
+							<td>￥561</td>
+							<td>￥52</td>
+							<td>有</td>
+							<td>西部航班</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+						<tr>
+							<td>北京-杭州</td>
+							<td>10-15</td>
+							<td>￥378</td>
+							<td>￥36</td>
+							<td>有</td>
+							<td>天津航班</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+						<tr>
+							<td>北京-广州</td>
+							<td>10-15</td>
+							<td>￥612</td>
+							<td>￥44</td>
+							<td>有</td>
+							<td>首都机场</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+						<tr>
+							<td>北京-重庆</td>
+							<td>10-15</td>
+							<td>￥428</td>
+							<td>￥62</td>
+							<td>有</td>
+							<td>东方航空</td>
+							<td><a href="#">预订</a></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<td colspan="7"><a href="#">加载更多</a></td>
+					</tfoot>
+				</table>
+			</section>
+		</div>
+		<aside class="sidebar">
+			<h2 class="none">景点大全</h2>
+			<section class="sidbox recommend">
+				<h2>景点推荐</h2>
+				<div class="spots">
+					<ul>
+						<li><a href="#">迪拜</a></li>
+						<li><a href="#">澳门</a></li>
+						<li><a href="#">台湾</a></li>
+						<li><a href="#">富士山</a></li>
+						<li><a href="#">阿里山</a></li>
+						<li><a href="#">苏州园林</a></li>
+						<li><a href="#">寒山寺</a></li>
+						<li><a href="#">西湖</a></li>
+						<li><a href="#">长城</a></li>
+						<li><a href="#">金鸡湖</a></li>
+						<li><a href="#">大裤衩</a></li>
+						<li><a href="#">李班故居</a></li>
+						<li><a href="#">大阪</a></li>
+						<li><a href="#">春日部</a></li>
+						<li><a href="#">秋田</a></li>
+						<li><a href="#">熊本</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="sidbox hot">
+				<h2>热门景点</h2>
+				<div class="figure">
+					<figure>
+						<div class="pic"><img src="img/hot1.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot2.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot3.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot4.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot5.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot6.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot7.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+					<figure>
+						<div class="pic"><img src="img/hot8.jpg"></div>
+						<figcaption><a href="#">曼谷-芭提雅6日游</a></figcaption>
+					</figure>
+				</div>
+			</section>
+			<section class="sidbox tour_box">
+				<h2>旅游百宝箱</h2>
+				<div class="box">
+					<a href="#" class="travel1">天气查询</a>
+					<a href="#" class="travel2">火车票查询</a>
+					<a href="#" class="travel3">航空查询</a>
+					<a href="#" class="travel4">地铁线路查询</a>
+				</div>
+			</section>
+		</aside>
+	</div>
+
+	<footer id="footer">
+		<div class="top">
+			<div class="block left">
+				<h2>合作伙伴</h2>
+				<hr />
+				<ul>
+					<li><a href="#">途牛旅游网</a></li>
+					<li><a href="#">驴妈妈旅游网</a></li>
+					<li><a href="#">携程旅游</a></li>
+					<li><a href="#">中国青年旅行社</a></li>
+				</ul>
+			</div>
+			<div class="block center">
+				<h2>旅游FAQ</h2>
+				<hr />
+				<ul>
+					<li><a href="#">旅游合同签订方式？</a></li>
+					<li><a href="#">儿童价是基于什么制定的？</a></li>
+					<li><a href="#">旅游的线路品质怎么界定的？</a></li>
+					<li><a href="#">单房差是什么？</a></li>
+					<li><a href="#">旅游保险有那些种类？</a></li>
+				</ul>
+			</div>
+			<div class="block right">
+				<h2>联系方式</h2>
+				<hr />
+				<ul>
+					<li>微博：weibo.com/ycku</li>
+					<li>邮件：ycku@ycku.com</li>
+					<li>地址：江苏盐城无名路123 号</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">Copyright © YCKU 瓢城旅行社| 苏ICP 备120110119 号| 旅行社经营许可证：L-YC-BK12345</div>
+	</footer>
+</body>
+</html>

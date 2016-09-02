@@ -1,0 +1,205 @@
+html{
+	font-size: 625%;
+}
+body,input{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	font-size: 0.16rem;
+}
+html,body,h1,h2,h3,h4,h5,h6,ul,p,figure{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input,button{
+	outline: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+div,figure,figcaption{
+	box-sizing: border-box;
+}
+.clear:after{
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.none{
+	display: none;
+}
+
+.header{
+	width: 100%;
+	height: .45rem;
+	background-color: #333;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+
+.header .link {
+	height: .45rem;
+	line-height: .45rem;
+}
+
+.header .link li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.header .link a{
+	color: #eee;
+	display: block;
+}
+
+.header .link a:hover, .header .link .active{
+	background-color: #000;
+}
+
+.main{
+	max-width: 6.4rem;
+	margin: .45rem auto 0 auto;
+}
+
+.main .search{
+	background-color: #ddd;
+	padding: .03rem 0;
+	position: relative;
+}
+
+.main .search input{
+	width: 95%;
+	padding: .03rem 0;
+	height: .32rem;
+	display: block;
+	margin: 0 auto;
+	font-size: .14rem;
+	text-indent: .08rem;
+	border: .01rem solid #ddd;
+	border-radius: .04rem;
+}
+
+.main .search_btn{
+	width: .5rem;
+	height: .32rem;
+	border: none;
+	font-size: .14rem;
+	border-radius: 0 .04rem .04rem 0;
+	background-color: #eee;
+	position: absolute;
+	bottom: .03rem;
+	right: 1%;
+}
+
+.main .tour hgroup h2, .main .tour hgroup h3{
+	text-align: center;
+	color: #666;
+}
+
+.main .tour hgroup h2{
+	font-size: .26rem;
+	margin: .1rem 0 .03rem 0;
+}
+
+.main .tour hgroup h3{
+	font-weight: normal;
+	font-size: .16rem;
+	margin: .03rem 0 .1rem 0;
+}
+
+.main .tour_container{
+	padding: 0 3%;
+}
+
+.main .tour_container figure{
+	width: 48%;
+	float: left;
+	margin: .10rem 1%;
+	border: 1px solid #ddd;
+	padding: .04rem;
+	border-radius: .04rem;
+}
+
+.main .tour_container figcaption h3,.main .tour_container figcaption p{
+	text-align: left;
+	color: #666;
+	font-weight: normal;
+	font-size: .16rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.main .tour_container figcaption h3{
+	margin: .05rem 0 0 0;
+}
+
+.main .tour_container figcaption p{
+	font-size: .14rem;
+}
+
+.main .tour_infor{
+	padding: .05rem 0 0 0;
+}
+
+.main .tour_infor strong{
+	color: orange;
+}
+
+.main .tour_infor em{
+	position: relative;
+	float: right;
+	right: .05rem;
+	bottom: 0;
+	font-style: normal;
+	font-size: .14rem;
+	color: #666;
+}
+
+
+.footer{
+	width: 100%;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+	font-size: .16rem;
+}
+
+.footer .top{
+	padding: .05rem 0 0 0;
+}
+
+.footer .bottom{
+	padding: .05rem 0 .10rem 0;
+}
+
+/* 媒体查询， 大于480px且小于640px */
+@media (min-width: 480px) and (max-width: 640px) {
+	.main .tour hgroup h2{
+		font-size: .26rem;
+	}
+	.main .tour hgroup h3, .main .tour_container figcaption h3,.main .tour_container figcaption p{
+		font-size: .16rem;
+	}
+}
+
+/* 媒体查询， 小于480px */
+@media (max-width: 480px) {
+	.main .tour hgroup h2{
+		font-size: .20rem;
+	}
+	.main .tour hgroup h3,.main .tour_infor strong,.main .tour_container figcaption h3,.main .tour_container figcaption p{
+		font-size: .14rem;
+	}
+	.footer, .main .tour_infor em{
+		font-size: .12rem;
+	}
+}
